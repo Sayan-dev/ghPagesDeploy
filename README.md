@@ -1,6 +1,9 @@
 # Deploy To Github
 Push your code in 1 line with commit message and branch name
 
+### Install   
+-    `npm i @sayan-dev/ghd`
+
 ### Usage
 - ghd commit  
     `ghd commit -m "Commit Message"`

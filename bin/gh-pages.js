@@ -13,7 +13,7 @@ var argv = yargs.usage("$0 command")
       }).argv
     },
     function (argv) {
-      shell.exec(`git add -A . && git commit -a -m ${argv.message}`);
+      shell.exec(`git add -A . && git commit -a -m "${argv.message}"`);
     })
   .command("push", "push changes up to GitHub",
     function (yargs) {
@@ -25,7 +25,6 @@ var argv = yargs.usage("$0 command")
         }
       }).argv
     }, function (argv) {
-
       shell.exec(`git push origin ${argv.b} --force`);
     })
   .command("deploy", "commit and push changes in one step",
@@ -44,7 +43,7 @@ var argv = yargs.usage("$0 command")
           }
         }).argv
     }, function (argv) {
-      shell.exec(`ghpages commit -m ${argv.m} && ghpages push -b ${argv.b}`);
+      shell.exec(`ghpages commit -m "${argv.m}" && ghpages push -b ${argv.b}`);
     })
   .demand(1, "must provide a valid command")
   .help("h")

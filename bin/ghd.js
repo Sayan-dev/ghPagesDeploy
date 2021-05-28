@@ -43,7 +43,7 @@ var argv = yargs.usage("$0 command")
           }
         }).argv
     }, function (argv) {
-      shell.exec(`ghpages commit -m "${argv.m}" && ghpages push -b ${argv.b}`);
+      shell.exec(`ghd commit -m "${argv.m}" && ghd push -b ${argv.b}`);
     })
   .demand(1, "must provide a valid command")
   .help("h")

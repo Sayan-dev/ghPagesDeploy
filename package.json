@@ -1,5 +1,5 @@
 {
-  "name": "ghpagedeploy",
+  "name": "ghd",
   "version": "0.1.0",
   "description": "Deploy to gh pages using cli",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ghpages": "bin/gh-pages.js"
+    "ghd": "bin/ghd.js"
   },
   "repository": {
     "type": "git",

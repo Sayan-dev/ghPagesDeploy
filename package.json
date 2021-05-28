@@ -1,0 +1,25 @@
+{
+  "name": "ghpagedeploy",
+  "version": "0.1.0",
+  "description": "Deploy to gh pages using cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "github-pages-commit": "bin/commit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayan-dev/ghPagesDeploy.git"
+  },
+  "author": "Sayanta Bhattacharjee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sayan-dev/ghPagesDeploy/issues"
+  },
+  "homepage": "https://github.com/Sayan-dev/ghPagesDeploy#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}

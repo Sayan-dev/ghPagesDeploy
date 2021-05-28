@@ -1,6 +1,6 @@
 {
   "name": "@sayan-dev/ghd",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Deploy to gh pages using cli",
   "main": "index.js",
   "scripts": {

@@ -7,7 +7,7 @@ var argv = yargs.usage("$0 command")
   .command("commit", "commit changes to the repo",
     function (yargs) {
       return yargs.option('m', {
-        alias: '',
+        alias: 'message',
         describe: 'the commit message'
       })
     },
